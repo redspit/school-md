@@ -1,0 +1,46 @@
+[debug] [2025-01-30T22:15:53.879Z] ----------------------------------------------------------------------
+[debug] [2025-01-30T22:15:53.885Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luqma\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-30T22:15:53.886Z] CLI Version:   13.29.3
+[debug] [2025-01-30T22:15:53.887Z] Platform:      win32
+[debug] [2025-01-30T22:15:53.887Z] Node Version:  v22.13.1
+[debug] [2025-01-30T22:15:53.888Z] Time:          Fri Jan 31 2025 01:15:53 GMT+0300 (Arabian Standard Time)
+[debug] [2025-01-30T22:15:53.888Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-30T22:15:53.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-30T22:15:53.904Z] > authorizing via signed-in user (redspitr@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  H:\Projects\Next.js\school-md
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-30T22:16:11.342Z] Checked if tokens are valid: true, expires at: 1738278360698
+[debug] [2025-01-30T22:16:11.343Z] Checked if tokens are valid: true, expires at: 1738278360698
+[debug] [2025-01-30T22:16:11.345Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-30T22:16:12.700Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-30T22:16:12.701Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project quick-foodie-d252b (Quick Foodie) 
+[info] 
+=== Hosting Setup
+[debug] [2025-01-30T22:16:37.601Z] Checked if tokens are valid: true, expires at: 1738278360698
+[debug] [2025-01-30T22:16:37.602Z] Checked if tokens are valid: true, expires at: 1738278360698
+[debug] [2025-01-30T22:16:37.602Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quick-foodie-d252b [none]
+[debug] [2025-01-30T22:16:38.437Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/quick-foodie-d252b 200
+[debug] [2025-01-30T22:16:38.437Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/quick-foodie-d252b {"projectId":"quick-foodie-d252b","projectNumber":"1023624206180","displayName":"Quick Foodie","name":"projects/quick-foodie-d252b","resources":{"hostingSite":"quick-foodie-d252b"},"state":"ACTIVE","etag":"1_390165fd-396b-4ffb-bf17-53e1e528a79a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
